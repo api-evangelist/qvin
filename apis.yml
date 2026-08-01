@@ -1,8 +1,12 @@
 aid: qvin
 name: Qvin
-description: 'Qvin is a company surfaced as a portfolio company of version-one-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: health. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Qvin is a women''s health diagnostics company that develops the Q-Pad, described as the first
+  and only FDA-cleared diagnostic menstrual pad, enabling non-invasive at-home health screening from menstrual
+  blood. The company analyzes collected samples in its CLIA-certified laboratory to test biomarkers for conditions
+  such as diabetes (A1c), and is researching screening for cervical cancer, endometriosis, sexually transmitted
+  infections, and uterine fibroids. Qvin operates as a consumer and clinical diagnostics provider rather than
+  a developer platform, and does not currently publish a public API, SDKs, or developer documentation. This
+  profile was added to the API Evangelist network as a portfolio company of Version One Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/qvin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +14,50 @@ x-backed-by:
 - version-one-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Health
+- Diagnostics
+- Women's Health
+- Medical Devices
+- Laboratory
+- Biomarkers
+image: https://qvin.com/wp-content/uploads/2023/01/qvin-logo.png
 apis: []
+common:
+- type: DomainSecurity
+  url: security/qvin-domain-security.yml
+- type: Website
+  url: https://qvin.com
+- type: Support
+  url: https://support.qvin.com/hc/en-us
+- type: HelpCenter
+  url: https://support.qvin.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://consents.qvin.com/236d24d6-9739-46aa-ae90-990bd45fd38c
+- type: TermsOfService
+  url: https://qvin.com/terms-of-use-website/
+- type: Careers
+  url: http://qvin.weebly.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
